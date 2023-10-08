@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+*{
+    font-family: 'Roboto Slab', serif;
+}
+.iki{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 60vw;
+}
+.ikichild{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 132px;
+    margin-top: 0;
+    font-size: 1.125vw;
+}
+.tren{
+    margin: 0px 30px;
+}
+.birchild{
+    width: 662px;
+    font-size: 1.5vw;
+font-family: "Roboto";
+font-weight: 400;
+color: rgba(0, 0, 0, 1);
+}
+h1{
+    font-size: 3.4375vw;
+font-family: "Roboto Slab";
+font-weight: 700;
+color: rgba(0, 0, 0, 1);
+width: 500px;
+height: 93px;
+margin-bottom: 0px;
+}
+.photoa{
+margin-left: 10vw;
+width:20vw;
+padding-bottom: 0;
+padding-top: 2vw;
+}
+ .bir{
+ display: flex;
+ flex-direction: row;
+ margin-bottom: 0;
+ width: 60vw;
+}
+.basliq{
+    margin-top: 178px;
+    margin-bottom: 89px;
+    width: 667px;
+    height: 93px;
+    margin-right: 0;
+}
+.ken{
+    margin: 0px 25px;
+}
+b{
+    font-size: 1.5625vw;
+font-weight: 700;
+color: rgba(30, 70, 129, 1);
+width: 150px;
+height: 39px;
+}
+.ucchild{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top:50px;
+    font-size: 1.125vw;
+}
+.ayri{
+    margin: 30px;
+}
+.uc{
+    width: 60vw;
+}
+.over{
+    /*margin-left: 121px;
+    margin-right: 153px;*/
+    max-width: 1166px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photob{
+width:16vw;
+margin-top: 10vh;
+}
+@media (min-width:768px) and (max-width:1024px){
+    .over{
+        margin-left: 70px;
+        margin-right: 88px;
+    }
+    .ikichild{
+        padding-top: 0px;
+        padding-left: 0;
+        width: 30vw;
+        font-size: 0.6875vw;
+    }
+    .birchild{
+        width: 30vw;
+        font-size: 0.875vw;
+        margin-bottom: 0;
+    }
+    h1{
+        width: 400px;
+        height: 53px;
+        margin-bottom: 0px;
+        font-size: 2vw;
+        margin-bottom: 0px;
+    }
+    .photoa{
+        margin-left: 5vw;
+        width:10vw;
+        padding-bottom: 0;
+        padding-top: 1vw;
+    }
+    .photob{
+        width:8vw;
+        margin-top: 1vw;
+    }
+    .basliq{
+        margin-top: 37px;
+        margin-bottom: 0;
+        width:386px;
+        height: 53px;
+    }
+    .ken{
+        margin: 0px 15px;
+    }
+    .tren{
+        font-size: 0.6875vw;
+        margin: 0px 15px;
+    }
+    b{
+        width: 123px;
+        height: 22px;
+        font-size: 0.9375vw;
+    }
+    .ikichild{
+      margin-top: 0px;
+      padding-top: 3vw;
+      font-size: 0.6875vw;
+    }
+    .bir{
+        margin-bottom: 0;
+        width: 30vw;
+    }
+    .iki{
+        width: 30vw;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .ucchild{
+        padding-top:23px;
+        width: 30vw;
+        font-size: 0.6875vw;
+    }
+}
+@media (max-width:767px) and (min-width:320px){
+   
+    .over{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ikichild{
+        padding-top: 0px;
+        padding-left: 0px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 0.625vw;
+        width: 15vw;
+        flex-wrap: wrap;
+    }
+    .iki{ 
+        margin-top: 0px;
+        padding-top: 0;
+        flex-direction: column;
+        width: 15vw;
+    }
+    .birchild{
+        width: 30vw;
+        font-size: 1vw;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .ucchild{
+        display: flex;
+        padding-top:0px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    h1{
+        width: 20vw;
+        height: 3vw;
+        margin-bottom: 0px;
+        font-size: 1.625vw;
+    }
+    .photoa{
+        margin: 0;
+        padding: 0px 113px 0px 15px;
+        width: 20vw;
+        margin-bottom: 0;
+    }
+    .basliq{
+        margin-top: 30px;
+        margin-bottom: 0px;
+        width:386px;
+        height: 35px;
+    }
+    .ruh{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    .ken{
+        margin: 0px 0px;
+        font-size: 0.625vw;
+        flex-direction: column;
+        width: 15vw;
+    }
+    .tren{
+        font-size: 0.625vw;
+    }
+    b{
+        width: 123px;
+        height: 22px;
+        font-size:  0.75vw;
+    }
+    .photob{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    .bir{
+        margin-bottom: 0;
+        flex-direction: column;
+        width: 15vw;
+    }
+}
